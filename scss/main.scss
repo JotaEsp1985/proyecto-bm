@@ -11,8 +11,40 @@ a{
     text-decoration: none;  
 }
 
+$font-primaria: roboto;
+
   /* --- header --- */
 
 .header{
-    background-color: red ;
+    background: rgb(78,77,93);
+    background: linear-gradient(90deg, rgba(78,77,93,1) 2%, rgba(218,71,122,1) 48%, rgba(199,20,20,1) 97%);
+
+    &__titulo{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: beige;
+    }
+
+    &__item{
+        padding: 6px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+    }
+
+}
+
+/* --- galeria index --- */
+
+.galeria{
+    padding-top: 5px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__item{
+        width: 95%;
+        object-fit: contain;
+    }
+
 }
