@@ -13,4 +13,9 @@ a {
   text-decoration: none;
 }
 
+/* --- header --- */
+.header {
+  background-color: red;
+}
+
 /*# sourceMappingURL=style.css.map */
