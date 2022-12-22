@@ -36,10 +36,18 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
+  background-color: antiquewhite;
 }
 .galeria__item {
   width: 95%;
   object-fit: contain;
+  align-items: center;
+}
+.galeria__item--destacada {
+  width: 95%;
+  object-fit: contain;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
