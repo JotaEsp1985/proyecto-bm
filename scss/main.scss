@@ -16,8 +16,8 @@ $font-primaria: roboto;
   /* --- header --- */
 
 .header{
-    background: rgb(78,77,93);
-    background: linear-gradient(90deg, rgba(78,77,93,1) 2%, rgba(218,71,122,1) 48%, rgba(199,20,20,1) 97%);
+    background: rgb(151,150,162);
+background: linear-gradient(90deg, rgba(151,150,162,1) 2%, rgba(218,71,122,1) 48%, rgba(196,64,64,1) 97%);
 
     &__titulo{
         text-align: center;
@@ -29,7 +29,7 @@ $font-primaria: roboto;
         padding: 6px;
         text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-style: oblique;
+        font-style: normal;
     }
 
 }
@@ -37,7 +37,6 @@ $font-primaria: roboto;
 /* --- galeria index --- */
 
 .galeria{
-       
     display: flex;
     flex-direction: column;
     align-items: center;
