@@ -73,6 +73,15 @@ $font-primaria: roboto;
         height: 100%;
      }
     }
+
+    @media (min-width: 1200px){
+
+        .galeria__item{
+            display: grid;
+            grid-template-columns: repeat(4, 22.5%);
+            grid-template-rows: repeat(2,25vh); 
+        }
+    }
 }
 
 /* --- comienzo footer --- */
