@@ -62,7 +62,11 @@ $font-primaria: roboto;
     background: linear-gradient(90deg, rgba(151,150,162,1) 2%, rgba(218,71,122,1) 48%, rgba(196,64,64,1) 97%);
 
  &__contactos{
-        padding: 6px;
+        text-align: center;
+ }
+
+ &__item{
+    padding: 6px;
         text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-style: normal;
