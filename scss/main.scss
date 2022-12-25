@@ -17,7 +17,7 @@ $font-primaria: roboto;
 
 .header{
     background: rgb(151,150,162);
-background: linear-gradient(90deg, rgba(151,150,162,1) 2%, rgba(218,71,122,1) 48%, rgba(196,64,64,1) 97%);
+    background: linear-gradient(90deg, rgba(151,150,162,1) 2%, rgba(218,71,122,1) 48%, rgba(196,64,64,1) 97%);
 
     &__titulo{
         text-align: center;
@@ -53,4 +53,18 @@ background: linear-gradient(90deg, rgba(151,150,162,1) 2%, rgba(218,71,122,1) 48
         object-fit: contain;
         align-items: center;
     }
+}
+
+/* --- comienzo footer --- */
+
+.footer{
+    background: rgb(151,150,162);
+    background: linear-gradient(90deg, rgba(151,150,162,1) 2%, rgba(218,71,122,1) 48%, rgba(196,64,64,1) 97%);
+
+ &__contactos{
+        padding: 6px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+ }
 }

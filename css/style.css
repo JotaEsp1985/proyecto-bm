@@ -48,4 +48,16 @@ a {
   align-items: center;
 }
 
+/* --- comienzo footer --- */
+.footer {
+  background: rgb(151, 150, 162);
+  background: linear-gradient(90deg, rgb(151, 150, 162) 2%, rgb(218, 71, 122) 48%, rgb(196, 64, 64) 97%);
+}
+.footer__contactos {
+  padding: 6px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
 /*# sourceMappingURL=style.css.map */
