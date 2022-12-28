@@ -96,17 +96,27 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: rgb(226, 223, 219);
+  padding: 3px;
+}
+.skater__nombre {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
 }
 .skater__item {
   width: 100%;
   object-fit: contain;
   align-items: center;
+  padding: 15px;
 }
 .skater__item--destacada {
   width: 100%;
   object-fit: contain;
   align-items: center;
+  padding: 15px;
 }
 
 /* --- comienzo footer --- */
