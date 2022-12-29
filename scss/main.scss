@@ -32,6 +32,20 @@ $font-primaria: roboto;
         font-style: normal;
     }
 
+    @media (min-width:1200px){
+
+       .header{
+        display: flex;
+        justify-content: space-between;
+       }
+       
+        &__titulo{
+        display: flex;
+        justify-content: left;
+       }
+
+}
+
 }
 
 /* --- galeria index --- */
@@ -137,8 +151,8 @@ $font-primaria: roboto;
         align-items: center;
         padding: 15px;
     }
-
 }
+
 
 
 /* --- comienzo footer --- */

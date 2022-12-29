@@ -29,6 +29,16 @@ a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
 }
+@media (min-width: 1200px) {
+  .header .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__titulo {
+    display: flex;
+    justify-content: left;
+  }
+}
 
 /* --- galeria index --- */
 .galeria {
