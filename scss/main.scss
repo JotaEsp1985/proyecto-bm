@@ -36,7 +36,6 @@ $font-primaria: roboto;
 
        .header{
         display: flex;
-        justify-content: space-between;
        }
        
         &__titulo{
@@ -133,8 +132,9 @@ $font-primaria: roboto;
     &__nombre{
         display: flex;
         justify-content: center;
-        font-size: large;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        font-size: 50px; text-shadow: 20px 15px 7px rgb(43, 30, 30);
+        font-family: 'Amatic SC', cursive;
+        font-family: 'Inspiration', cursive;
         font-style: oblique;
     }
     

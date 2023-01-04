@@ -32,7 +32,6 @@ a {
 @media (min-width: 1200px) {
   .header .header {
     display: flex;
-    justify-content: space-between;
   }
   .header__titulo {
     display: flex;
@@ -112,8 +111,10 @@ a {
 .skater__nombre {
   display: flex;
   justify-content: center;
-  font-size: large;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-shadow: 20px 15px 7px rgb(43, 30, 30);
+  font-family: "Amatic SC", cursive;
+  font-family: "Inspiration", cursive;
   font-style: oblique;
 }
 .skater__item {
