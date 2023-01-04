@@ -4,6 +4,41 @@
     box-sizing: border-box;  
   }
 
+    /* --- header --- */
+
+.header{
+  background: rgb(151,150,162);
+  background: linear-gradient(90deg, rgba(151,150,162,1) 2%, rgba(218,71,122,1) 48%, rgba(196,64,64,1) 97%);
+
+  &__titulo{
+      text-align: center;
+      font-family: 'Fascinate', cursive;;
+      color: beige;
+  }
+
+  &__item{
+      padding: 6px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      text-shadow: 3px 4px 3px rgb(43, 30, 30);
+      font-style: normal;
+  }
+
+  @media (min-width:1200px){
+
+     .header{
+      display: flex;
+     }
+     
+      &__titulo{
+      display: flex;
+      justify-content: left;
+     }
+
+}
+
+}
+
   .skater{
     padding-top: 5px;   
  display: flex;
