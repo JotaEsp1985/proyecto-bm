@@ -39,6 +39,11 @@ a {
     display: flex;
     justify-content: left;
   }
+  .header__item {
+    text-align: right;
+    display: inline;
+    justify-content: right;
+  }
 }
 
 /* --- galeria index --- */
@@ -124,6 +129,27 @@ a {
   padding: 8px;
 }
 .skater__item--destacada {
+  width: 100%;
+  object-fit: contain;
+  align-items: center;
+  padding: 8px;
+}
+
+/* --- comienzo fotosyvideos --- */
+.fotosvideos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(226, 223, 219);
+  padding: 3px;
+}
+.fotosvideos__item {
+  width: 100%;
+  object-fit: contain;
+  align-items: center;
+  padding: 8px;
+}
+.fotosvideos__item--destacada {
   width: 100%;
   object-fit: contain;
   align-items: center;
