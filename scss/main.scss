@@ -84,20 +84,26 @@ $font-primaria: roboto;
         justify-content: center;
      }
 
-     &__item--destacada{
-        grid-column: span 2;
-        grid-row: span 2;
-     }
-
      &__item{
+        display: grid;
         width: 100%;
-        height: 100%;
-     }
+        object-fit: contain;
+        align-items: center;
+        padding: 5px;
+    }
+
+    &__item--destacada{
+        display: grid;
+        width: 100%;
+        object-fit: contain;
+        align-items: center;
+        padding: 5px;
+    }
     }
 
     @media (min-width: 1200px){
 
-        .galeria__item{
+        .galeria{
             display: grid;
             grid-template-columns: repeat(4, 22.5%);
             grid-template-rows: repeat(2,25vh); 
